@@ -1,4 +1,4 @@
-# Become a Software Professional M-2023
+# Become a Software Professional 2023
 ## Mega Rocket
 
 ```
