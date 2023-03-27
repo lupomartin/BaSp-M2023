@@ -11,49 +11,53 @@
 </head>
 
 <body>
-    <div>
-        <img src="Mega.png" alt="icon-mega">
-        <img src="Rocket.png" alt="icon-rocket">
-    </div>
-    <section>
+    <header>
+        <img src="assets/Mega.png" alt="icon-mega">
+        <img src="assets/Rocket.png" alt="icon-rocket">
+    </header>
+    <aside>
         <label>
             Contact information
         </label>
-        <img src="icone-home.png" alt="">
-        <button>
+        <img src="assets/icon-home.png" alt="">
+        <a href="">
             Home
-        </button>
-        <img src="sign-up.png" alt="icono-sign-up">
-        <button>
+        </a>
+        <img src="assets/sign-up.png" alt="icono-sign-up">
+        <a href="#">
             Sign Up
-        </button>
-        <img src="sign-in .png" alt="icono-sign-in">
-        <button>
+        </a>
+        <img src="assets/sign-in .png" alt="icono-sign-in">
+        <a href="#">
             Sign In
-        </button>
-        <img src="Icon-mail.png" alt="icon-mail">
+        </a>
+        <img src="assets/Icon-mail.png" alt="icon-mail">
         <a href="">information@untitled.tld</a>
-        <img src="icon-phone.png" alt="icon-phone">
+        <img src="assets/icon-phone.png" alt="icon-phone">
         <label>(000) 000-00000</label>
-        <img src="icon-home.png" alt="icone-home">
+        <img src="assets/icon-home.png" alt="icone-home">
         <a href="">1234 Somewhere Road #8254 Nashville, TN</a>
+    </aside>
+    <section>
+        <h1>
+            Mega Rocket Web
+        </h1>
+        <h2>
+            Welcome
+        </h2>
+        <img src="assets/gimnasio1.png" alt="Foto-de-gimnasio">
+        <p>
+            Mega Rocket web is a monthly management system for members and trainers so that they can dynamically sign up
+            for
+            their activities in the gym
+        </p>
     </section>
-    <h1>
-        Mega Rocket Web
-    </h1>
-    <h2>
-        Welcome
-    </h2>
-    <img src="gimnasio1.png" alt="Foto-de-gimnasio">
-    <p>
-        Mega Rocket web is a monthly management system for members and trainers so that they can dynamically sign up for
-        their activities in the gym
-    </p>
     <section>
         <h2>
             Features
         </h2>
-        <div>
+        <article>
+            <img src="assets/shift-reservations.jpg" alt="">
             <h3>
                 Shift Reservations
             </h3>
@@ -61,6 +65,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                 interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </p>
+            <img src="assets/Scheduling & opening hours.jpg" alt="">
             <h3>
                 Scheduling & opening hours
             </h3>
@@ -68,6 +73,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                 interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </p>
+            <img src="assets/Membership management.jpg" alt="">
             <h3>
                 Membership management
             </h3>
@@ -75,6 +81,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                 interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </p>
+            <img src="assets/Contact form & suggestions.jpg" alt="">
             <h3>
                 Contact form & suggestions
             </h3>
@@ -82,13 +89,13 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                 interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </p>
-        </div>
+        </article>
     </section>
     <div>
         <h2>
             About Mega Rocket
         </h2>
-        <img src="gimnasio2.png" alt="Foto-de-gimnasio">
+        <img src="assets/gimnasio2.png" alt="Foto-de-gimnasio">
         <p>
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum.
             Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper
@@ -96,7 +103,7 @@
             velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet
             lorem feugiat tempus aliquam.
         </p>
-        <img src="gimnasio3.png" alt="Foto-de-gimnasio">
+        <img src="assets/gimnasio3.png" alt="Foto-de-gimnasio">
         <p>
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum.
             Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper
@@ -111,13 +118,13 @@
         </h2>
         <form action="">
             <div>
-                First name
+                <label for="">First name</label>
                 <input placeholder="Enter name" type="dates">
 
-                Last name
+                <label for="">Last name</label>
                 <input placeholder="Enter last name" type="dates">
 
-                Email adress
+                <label for="">Email adress</label>
                 <input placeholder="Enter adress" type="mail">
 
                 <button>
@@ -125,29 +132,31 @@
                 </button>
             </div>
 
-            Contact reason <select name="reasons" id="reasons">
+            <label for="">Contact reason
+
+            </label> <select name="reasons" id="reasons">
                 <option disabled selected value="">
                     Choose contact reason
                 </option>
-                <option value="1">
+                <option value="I want to make claim">
                     I want to make claim
                 </option>
-                <option value="2">
+                <option value="I want to realize or suggestion">
                     I want to realize or suggestion
                 </option>
-                <option value="3">
+                <option value="I want to know the memberships and costs">
                     I want to know the memberships and costs
                 </option>
             </select>
-            Message
-            <textarea placeholder="Enter your message" cols="30" rows="10"></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="" placeholder="Enter your message" cols="30" rows="10"></textarea>
         </form>
     </section>
     <section>
         <h2>
             Gym activities
         </h2>
-        <img src="gimnasio4.png" alt="Foto-de-gimnasio">
+        <img src="assets/gimnasio4.png" alt="Foto-de-gimnasio">
         <ul>
             <li>
                 Crossfit
@@ -168,84 +177,47 @@
             Memberships
         </h2>
         <table>
-            <thead>
-                <th>
-                    Only classes
-                </th>
-                <th>
-                    Classes
-                </th>
-                <th>
-                    Black
-                </th>
-
-            </thead>
-            <tbody>
-                <td>
-                    Free access to the fitness room
-                </td>
-                <td>
-                    Free access to classes prior enrollment
-                </td>
-                <td>
-                    Perzonalized follow-up by a trainer
-                </td>
-                <td>
-                    Schedulling visualization
-                </td>
-            </tbody>
-            <thead>
-                <th>
-                    <img src="cruz.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-            </thead>
-            <thead>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-                <th>
-                    <img src="cruz.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-            </thead>
-            <thead>
-                <th>
-                    <img src="cruz.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-            </thead>
-            <thead>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-                <th>
-                    <img src="tilde.png" alt="">
-                </th>
-            </thead>
-
+            <tr>
+                <th> </th>
+                <th>Only classes</th>
+                <th>Classic</th>
+                <th>Black</th>
+            </tr>
+            <tr>
+                <td>Free access to the fitness room</td>
+                <td><img src="assets/cruz.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Free access to classes prior enrollment</td>
+                <td><img src="assets/tilde.png" alt=""></td>
+                <td><img src="assets/cruz.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Perzonalized follow-up by a trainer</td>
+                <td><img src="assets/cruz.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Schedulling visualization</td>
+                <td><img src="assets/tilde.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+                <td><img src="assets/tilde.png" alt=""></td>
+            </tr>
         </table>
     </section>
     <section>
-        <img src="icon-linkedin.png" alt="icono-instagram">
-        <img src="icon-facebook.png" alt="icono-facebook">
-        <img src="icon-instagram.png" alt="icono-linkedin">
-        Copyright © 2022 Radium Rocket. All rights reserved.
+        <div>
+            <img src="assets/icon-linkedin.png" alt="icono-instagram">
+            <img src="assets/icon-facebook.png" alt="icono-facebook">
+            <img src="assets/icon-instagram.png" alt="icono-linkedin">
+        </div>
+        <p>
+            Copyright © 2022 Radium Rocket. All rights reserved.
+        </p>
     </section>
 </body>
 
