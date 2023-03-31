@@ -158,5 +158,44 @@ form {
     margin-left: 720px;
 
 }
+.memberships-container {
+    margin-top: 100px;
+}
 
+table {
+    text-align: left;
+    width: 600px;
+    color: #373867;
+    border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+    padding: 13px;
+}
+
+#table-container {
+    width: 600px;
+    margin: 150px auto;
+}
+
+.grey {
+    background-color: #D9D9D9;
+    color: #373867;
+}
+
+#final {
+    background-color: #AACE9B;
+}
+
+#iconos {
+    margin-left: 700px;
+}
+
+#final-text {
+    margin-left: 550px;
+    color: white;
+    padding: 10px;
+}
 
