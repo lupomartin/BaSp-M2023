@@ -1,4 +1,5 @@
 header {
+    font-family: 'Roboto';
     background-color: #373867;
     height: 77px;
     position: sticky;
@@ -42,10 +43,12 @@ aside {
     top: 92px;
     font-size: 18px;
 }
-.button{
+
+.button {
     border: 0;
     background-color: white;
 }
+
 .icons-sidebar {
     background-color: white;
     display: inline-block;
@@ -69,3 +72,47 @@ aside {
     text-align: center;
 }
 
+#welcome {
+    text-align: center;
+    margin-right: 330px;
+    margin-top: 10px;
+}
+
+#img-welcome {
+    width: 500px;
+    height: 315px;
+    margin-left: 900px;
+    margin-top: -120px;
+}
+
+#text-welcome {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    width: 488px;
+    height: 81px;
+    left: 340px;
+    top: 200px;
+}
+
+#features {
+    text-align: center;
+    text-decoration: underline #49A37B;
+    color: #373867;
+}
+
+article {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    margin-left: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 70px;
+}
