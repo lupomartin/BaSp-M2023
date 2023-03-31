@@ -1,0 +1,71 @@
+header {
+    background-color: #373867;
+    height: 77px;
+    position: sticky;
+    width: 1512px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    color: #373867;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    color: #373867;
+    text-align: center;
+    text-decoration: underline #49A37B;
+    color: #373867;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    color: #373867;
+}
+
+p {
+    color: #373867;
+    font-family: 'Roboto';
+}
+
+aside {
+    position: fixed;
+    background-color: #AACE9B;
+    width: 313px;
+    height: 915px;
+    left: 0px;
+    top: 92px;
+    font-size: 18px;
+}
+.button{
+    border: 0;
+    background-color: white;
+}
+.icons-sidebar {
+    background-color: white;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 47px;
+    height: 30px;
+    border: #373867 solid 1px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#sidebar label {
+    color: #373867;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+#information-sidebar {
+    font-size: 18px;
+    text-align: center;
+}
+

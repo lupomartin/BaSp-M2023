@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <title>
         Mega Rocket
@@ -12,38 +13,40 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <img src="assets/Mega.png" alt="icon-mega">
         <img src="assets/Rocket.png" alt="icon-rocket">
     </header>
-    <aside id="sidebar">
-        <article id="icons-sidebar">
+    <aside>
+        <article class="icons-sidebar">
             <img src="assets/icon-home.png" alt="">
-            <a href="">
+            <button class="button">
                 Home
-            </a><br>
+            </button><br>
         </article>
-        <article id="icons-sidebar">
+        <article class="icons-sidebar">
             <img src="assets/sign-up.png" alt="icono-sign-up">
-            <a href="#">
+            <button class="button">
                 Sign Up
-            </a><br>
+            </button><br>
         </article>
-        <article id="icons-sidebar">
+        <article class="icons-sidebar">
             <img src="assets/sign-in .png" alt="icono-sign-in">
-            <a href="#">
+            <button class="button">
                 Sign In
-            </a><br>
+            </button><br>
         </article><br>
-        <label>
-            Contact information
-        </label><br>
-        <img src="assets/Icon-mail.png" alt="icon-mail">
-        <a href="">information@untitled.tld</a><br>
-        <img src="assets/icon-phone.png" alt="icon-phone">
-        <label>(000) 000-00000</label><br>
-        <img src="assets/icon-home.png" alt="icone-home">
-        <a href="">1234 Somewhere Road #8254 Nashville, TN</a><br>
+        <article id="information-sidebar">
+            <label>
+                Contact information
+            </label><br>
+            <img src="assets/Icon-mail.png" alt="icon-mail">
+            <a href="">information@untitled.tld</a><br>
+            <img src="assets/icon-phone.png" alt="icon-phone">
+            <label>(000) 000-00000</label><br>
+            <img src="assets/icon-home.png" alt="icone-home">
+            <a href="">1234 Somewhere Road #8254 Nashville, TN</a><br>
+        </article>
     </aside>
     <section id="welcome">
         <h1>
@@ -143,18 +146,18 @@
         </h2>
         <form action="#">
             <div class="user-details">
-                <label for="">First name</label><br>
-                <input class="box" placeholder="Enter name" required type="dates"><br>
-                <label for="">Last name</label><br>
-                <input class="box" placeholder="Enter last name" type="dates"><br>
-                <label for="">Email adress</label><br>
-                <input class="box" placeholder="Enter adress" type="mail"><br>
+                <label for="first-name">First name</label><br>
+                <input id="first-name" class="box" placeholder="Enter name" required type="dates"><br>
+                <label for="last-name">Last name</label><br>
+                <input id="last-name" class="box" placeholder="Enter last name" type="dates"><br>
+                <label for="email-adress">Email adress</label><br>
+                <input id="email-adress" class="box" placeholder="Enter adress" type="mail"><br>
                 <a id="submit" href="">
                     Submit
                 </a>
             </div>
             <div class="user-details">
-                <label for="">
+                <label>
                     Contact reason
                 </label><br>
                 <select class="color" class="box" name="reasons" id="reasons"><br>
@@ -176,12 +179,12 @@
             </div>
         </form>
     </section>
-    <section> 
+    <section>
         <h2>
             Gym activities
         </h2>
         <img id="img-activities" src="assets/gimnasio4.png" alt="Foto-de-gimnasio">
-        <ul>
+        <ul id="list-2">
             <li id="list">
                 Crossfit
             </li>
@@ -196,44 +199,44 @@
             </li>
         </ul>
     </section>
-    <section>
+    <section class="memberships-container">
         <h2>
             Memberships
         </h2>
         <div id="table-container">
-        <table>
-            <tr class="grey">
-                <th> </th>
-                <th>Only classes</th>
-                <th>Classic</th>
-                <th>Black</th>
-            </tr>
-            <tr>
-                <td>Free access to the fitness room</td>
-                <td><img src="assets/cruz.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-            </tr>
-            <tr class="grey">
-                <td>Free access to classes prior enrollment</td>
-                <td><img src="assets/tilde.png" alt=""></td>
-                <td><img src="assets/cruz.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-            </tr>
-            <tr>
-                <td>Perzonalized follow-up by a trainer</td>
-                <td><img src="assets/cruz.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-            </tr>
-            <tr class="grey">
-                <td>Schedulling visualization</td>
-                <td><img src="assets/tilde.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-                <td><img src="assets/tilde.png" alt=""></td>
-            </tr>
-        </table>
-    </div>
+            <table>
+                <tr class="grey">
+                    <th> </th>
+                    <th>Only classes</th>
+                    <th>Classic</th>
+                    <th>Black</th>
+                </tr>
+                <tr>
+                    <td>Free access to the fitness room</td>
+                    <td><img src="assets/cruz.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                </tr>
+                <tr class="grey">
+                    <td>Free access to classes prior enrollment</td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                    <td><img src="assets/cruz.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Perzonalized follow-up by a trainer</td>
+                    <td><img src="assets/cruz.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                </tr>
+                <tr class="grey">
+                    <td>Schedulling visualization</td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                    <td><img src="assets/tilde.png" alt=""></td>
+                </tr>
+            </table>
+        </div>
     </section>
     <section id="final">
         <div id="iconos">
