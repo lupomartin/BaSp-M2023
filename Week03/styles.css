@@ -1,5 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header {
-    font-family: 'Roboto';
     background-color: #373867;
     height: 77px;
     position: sticky;
@@ -10,13 +12,11 @@ header {
 }
 
 h1 {
-    font-family: 'Roboto';
     color: #373867;
     font-size: 40px;
 }
 
 h2 {
-    font-family: 'Roboto';
     color: #373867;
     text-align: center;
     text-decoration: underline #49A37B;
@@ -25,7 +25,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto';
     color: #373867;
 }
 
@@ -67,7 +66,7 @@ aside {
     font-size: 18px;
 }
 
-#information-sidebar {
+#information-sideba {
     font-size: 18px;
     text-align: center;
 }
@@ -109,13 +108,13 @@ article {
     display: inline-block;
     width: 45%;
     margin-left: 72px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     margin-left: 70px;
 }
+
 form {
     display: flex;
     justify-content: center;
@@ -142,14 +141,12 @@ form {
 }
 
 #list {
-    font-family: 'Roboto';
     color: #373867;
     margin-left: 520px;
     margin-bottom: 15px;
 }
 
 #list-2 {
-    font-family: 'Roboto';
     margin-top: -170px;
     font-size: 20px;
 }
@@ -158,6 +155,7 @@ form {
     margin-left: 720px;
 
 }
+
 .memberships-container {
     margin-top: 100px;
 }
@@ -198,4 +196,3 @@ th {
     color: white;
     padding: 10px;
 }
-
