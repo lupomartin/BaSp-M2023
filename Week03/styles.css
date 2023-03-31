@@ -116,3 +116,47 @@ article {
     line-height: 23px;
     margin-left: 70px;
 }
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 30px;
+    width: 300px;
+    border: #373867 solid 2px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.user-details {
+    margin-left: 160px;
+}
+
+#submit {
+    background-color: #AACE9B;
+    padding: 5px;
+    border-radius: 4px;
+    color: #373867;
+}
+
+#list {
+    font-family: 'Roboto';
+    color: #373867;
+    margin-left: 520px;
+    margin-bottom: 15px;
+}
+
+#list-2 {
+    font-family: 'Roboto';
+    margin-top: -170px;
+    font-size: 20px;
+}
+
+#img-activities {
+    margin-left: 720px;
+
+}
+
+
