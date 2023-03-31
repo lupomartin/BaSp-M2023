@@ -20,5 +20,6 @@ We made a figma dividing the tasks into 6 groups, making the following requests:
 What we did this week was convert what the landing group did to html code.
 What we will be able to see would be the main page where we have characteristics, membership options and data about the gym
 
-
+## Week 03
+This week what we did was apply styles to our html so that it looked the same as the landing.
 
