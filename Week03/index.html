@@ -18,35 +18,46 @@
         <img src="assets/Rocket.png" alt="icon-rocket">
     </header>
     <aside>
-        <article class="icons-sidebar">
-            <img src="assets/icon-home.png" alt="">
-            <button class="button">
-                Home
-            </button><br>
-        </article>
-        <article class="icons-sidebar">
-            <img src="assets/sign-up.png" alt="icono-sign-up">
-            <button class="button">
-                Sign Up
-            </button><br>
-        </article>
-        <article class="icons-sidebar">
-            <img src="assets/sign-in .png" alt="icono-sign-in">
-            <button class="button">
-                Sign In
-            </button><br>
-        </article><br>
-        <article id="information-sidebar">
+        <nav>
+            <ul>
+                <li class="btn-aside"> <img src="assets/icon-home.png" alt="">
+                    <a href="#" class="order ">
+                        Home
+                    </a><br>
+                </li>
+                <li class="btn-aside">
+                    <img src="assets/sign-up.png" alt="icono-sign-up">
+                    <a href="#" class="order">
+                        Sign Up
+                    </a><br>
+                </li>
+                <li class="btn-aside">
+                    <img src="assets/sign-in.png" alt="icono-sign-in">
+                    <a href="#" class="order">
+                        Sign In
+                    </a><br>
+                    <br>
+                </li>
+            </ul>
+        </nav>
+        <section>
             <label>
-                Contact information
+                <h2 id="color-contact">Contact information</h2>
             </label><br>
-            <img src="assets/Icon-mail.png" alt="icon-mail">
-            <a href="">information@untitled.tld</a><br>
-            <img src="assets/icon-phone.png" alt="icon-phone">
-            <label>(000) 000-00000</label><br>
-            <img src="assets/icon-home.png" alt="icone-home">
-            <a href="">1234 Somewhere Road #8254 Nashville, TN</a><br>
-        </article>
+            <ul id="size-ul">
+                <li class="position-side"> <img src="assets/Icon-mail.png" alt="icon-mail">
+                    <a href="#">information@untitled.tld</a><br>
+                </li>
+                <li class="position-side">
+                    <img src="assets/icon-phone.png" alt="icon-phone">
+                    <label>(000) 000-00000</label>
+                </li>
+                <li class="position-side">
+                    <img src="assets/icon-home.png" alt="icone-home">
+                    <a href="#">1234 Somewhere Road #8254 Nashville, TN</a><br>
+                </li>
+            </ul>
+        </section>
     </aside>
     <section id="welcome">
         <h1>
@@ -58,7 +69,7 @@
         <p id="text-welcome">
             Mega Rocket web is a monthly management system for members and trainers so that they can dynamically sign up
             for
- their activities in the gym
+            their activities in the gym
         </p>
         <img id="img-welcome" src="assets/gimnasio1.png" alt="Foto-de-gimnasio">
     </section>
@@ -145,18 +156,24 @@
             Get in touch
         </h2>
         <form action="#">
-            <div class="user-details">
-                <label for="first-name">First name</label><br>
-                <input id="first-name" class="box" placeholder="Enter name" required type="dates"><br>
-                <label for="last-name">Last name</label><br>
-                <input id="last-name" class="box" placeholder="Enter last name" type="dates"><br>
-                <label for="email-adress">Email adress</label><br>
+            <section class="user-details">
+                <label for="first-name">
+                    First name
+                </label><br>
+                <input id="first-name" class="box" placeholder="Enter name" required type="text"><br>
+                <label for="last-name">
+                    Last name
+                </label><br>
+                <input id="last-name" class="box" placeholder="Enter last name" type="text"><br>
+                <label for="email-adress">
+                    Email adress
+                </label><br>
                 <input id="email-adress" class="box" placeholder="Enter adress" type="mail"><br>
                 <a id="submit" href="">
                     Submit
                 </a>
-            </div>
-            <div class="user-details">
+            </section>
+            <section class="user-details">
                 <label>
                     Contact reason
                 </label><br>
@@ -176,7 +193,7 @@
                 </select><br>
                 <label for="message">Message</label><br>
                 <textarea id="message" name="" placeholder="Enter your message" cols="30" rows="10"></textarea>
-            </div>
+            </section>
         </form>
     </section>
     <section>
@@ -239,7 +256,7 @@
         </div>
     </section>
     <section id="final">
-        <div id="iconos">
+        <div id="icons">
             <img src="assets/icon-linkedin.png" alt="icono-instagram">
             <img src="assets/icon-facebook.png" alt="icono-facebook">
             <img src="assets/icon-instagram.png" alt="icono-linkedin">
