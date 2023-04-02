@@ -10,7 +10,11 @@ header {
     height: 85px;
     top: 0px;
     left: 0px;
-    font-size: 60px;
+    padding-left: 15px;
+}
+
+main {
+    margin-left: 190px;
 }
 
 h1 {
@@ -38,30 +42,39 @@ p {
 aside {
     position: fixed;
     background-color: #AACE9B;
-    width: 313px;
+    width: 260px;
     height: 915px;
     left: 0px;
     top: 84px;
     font-size: 18px;
 }
 
-.btn-aside {
-    list-style-type: none;
+.decoration {
     text-decoration: none;
-    align-items: center;
-    background: #FFFFFF;
-    border: 1px solid #373867;
+    margin-left: 0px;
+    color: #373867;
+}
+
+.btn-aside {
+    display: block;
+    height: 37.69px;
+    left: 25px;
+    background-color: white;
+    margin-top: 12.38px;
     border-radius: 5px;
-    margin-bottom: 23px;
-    margin-left: 30px;
-    margin-right: 100px;
-    font-size: 20px;
+    border: 1px solid #373867;
+    margin-right: 25px;
+    padding-top: 12px;
+}
+
+.icons-side {
+    margin-left: 50px;
 }
 
 #color-contact {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
-    margin-top: 200px;
+    margin-top: 245px;
     font-size: 20px;
     margin-bottom: -150px;
 }
@@ -70,32 +83,47 @@ aside {
     list-style-type: none;
     text-decoration: none;
     width: 270px;
-    margin-top: 13px;
+    margin-left: -30px;
+    font-size: 16px;
+    margin-bottom: 70px;
+    margin-top: -50px;
 }
-#size-ul{
-    margin-top: 130px;
+
+
+#size-ul {
+    margin-top: 120px;
 }
+
 .h2-side {
     text-decoration: none;
     font-size: 20px;
     margin-right: 120px;
 }
 
-.order {
-    margin-left: 20px;
-}
-
 #welcome {
     text-align: center;
-    margin-right: 330px;
-    margin-top: 10px;
+    margin-right: 554px;
+    margin-top: 100px;
+}
+
+#color-welcome {
+    color: #49A37B;
+    text-decoration: none;
 }
 
 #img-welcome {
     width: 500px;
     height: 315px;
-    margin-left: 900px;
+    margin-left: 740px;
     margin-top: -120px;
+}
+
+.details2 {
+    float: left;
+}
+
+.gym {
+    margin-top: 350px;
 }
 
 #text-welcome {
@@ -108,7 +136,7 @@ aside {
     width: 488px;
     height: 81px;
     left: 340px;
-    top: 200px;
+    top: 280px;
 }
 
 #features {
@@ -121,18 +149,16 @@ article {
     font-style: normal;
     text-align: center;
     display: inline-block;
-    width: 45%;
-    margin-left: 72px;
+    width: 590px;
+    margin-left: 70px;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    margin-left: 70px;
+    margin-left: 72px;
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline;
 }
 
 .box {
@@ -143,20 +169,34 @@ form {
     margin-bottom: 17px;
 }
 
+.label-form {
+    display: block;
+}
+
 .user-details {
+    display: inline-block;
     margin-left: 160px;
 }
 
 #submit {
     background-color: #AACE9B;
-    padding: 5px;
+    padding: 10px;
     border-radius: 4px;
     color: #373867;
+    text-decoration: none;
+    border: none;
+    display: block;
+}
+
+.textarea {
+    width: 566px;
+    height: 190px;
+
 }
 
 #list {
     color: #373867;
-    margin-left: 520px;
+    margin-left: 320px;
     margin-bottom: 15px;
 }
 
@@ -166,7 +206,7 @@ form {
 }
 
 #img-activities {
-    margin-left: 720px;
+    margin-left: 520px;
 
 }
 
@@ -198,17 +238,17 @@ th {
     color: #373867;
 }
 
-#final {
+footer {
     background-color: #AACE9B;
     padding: 4px;
 }
 
 #icons {
-    margin-left: 700px;
+    margin-left: 800px;
     margin-top: 10px;
 }
 
 #final-text {
     color: white;
-    margin-left: 550px;
+    margin-left: 678px;
 }
