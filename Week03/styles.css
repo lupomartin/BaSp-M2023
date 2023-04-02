@@ -6,10 +6,11 @@ header {
     background-color: #373867;
     height: 77px;
     position: sticky;
-    width: 1512px;
+    width: 1519px;
     height: 85px;
-    left: 0px;
     top: 0px;
+    left: 0px;
+    font-size: 60px;
 }
 
 h1 {
@@ -45,16 +46,16 @@ aside {
 }
 
 .btn-aside {
-    background: #FFFFFF;
-    border-radius: 5px;
-    border: 1px solid #373867;
-    margin-bottom: 16px;
+    list-style-type: none;
+    text-decoration: none;
     align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    margin-bottom: 23px;
     margin-left: 30px;
     margin-right: 100px;
     font-size: 20px;
-    list-style-type: none;
-    text-decoration: none;
 }
 
 #color-contact {
@@ -117,11 +118,11 @@ aside {
 }
 
 article {
+    font-style: normal;
     text-align: center;
     display: inline-block;
     width: 45%;
     margin-left: 72px;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -199,6 +200,7 @@ th {
 
 #final {
     background-color: #AACE9B;
+    padding: 4px;
 }
 
 #icons {
@@ -207,7 +209,6 @@ th {
 }
 
 #final-text {
-    margin-left: 550px;
     color: white;
-    padding: 10px;
+    margin-left: 550px;
 }
