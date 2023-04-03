@@ -5,12 +5,20 @@ body {
 header {
     background-color: #373867;
     height: 77px;
-    position: sticky;
+    position: fixed;
     width: 1519px;
     height: 85px;
     top: 0px;
     left: 0px;
     padding-left: 15px;
+}
+
+.img-header {
+    margin-top: 26px;
+}
+
+.img-header2 {
+    margin-bottom: 6px;
 }
 
 main {
@@ -28,10 +36,12 @@ h2 {
     text-decoration: underline #49A37B;
     color: #373867;
     margin-bottom: 40px;
+    font-size: 30px;
 }
 
 h3 {
     color: #373867;
+    font-size: 24px;
 }
 
 p {
@@ -51,24 +61,35 @@ aside {
 
 .decoration {
     text-decoration: none;
-    margin-left: 0px;
+    color: #373867;
+    margin-left: 10px;
+    right: 92px;
+    top: 4px;
+    bottom: 95px;
+
+}
+
+.color {
     color: #373867;
 }
 
 .btn-aside {
-    display: block;
-    height: 37.69px;
-    left: 25px;
     background-color: white;
-    margin-top: 12.38px;
-    border-radius: 5px;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 36px;
+    gap: 10px;
+    margin-right: 20px;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 17px;
     border: 1px solid #373867;
-    margin-right: 25px;
-    padding-top: 12px;
+    border-radius: 5px;
 }
 
 .icons-side {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #color-contact {
@@ -76,19 +97,21 @@ aside {
     color: white;
     margin-top: 245px;
     font-size: 20px;
-    margin-bottom: -150px;
 }
 
 .position-side {
     list-style-type: none;
     text-decoration: none;
     width: 270px;
-    margin-left: -30px;
+    margin-left: 10px;
     font-size: 16px;
-    margin-bottom: 70px;
-    margin-top: -50px;
+    margin-bottom: 90px;
+    margin-top: -80px;
 }
 
+.underline {
+    text-decoration: none;
+}
 
 #size-ul {
     margin-top: 120px;
@@ -103,7 +126,7 @@ aside {
 #welcome {
     text-align: center;
     margin-right: 554px;
-    margin-top: 100px;
+    margin-top: 170px;
 }
 
 #color-welcome {
@@ -115,15 +138,12 @@ aside {
     width: 500px;
     height: 315px;
     margin-left: 740px;
-    margin-top: -120px;
+    margin-top: -170px;
+    margin-bottom: 70px;
 }
 
 .details2 {
-    float: left;
-}
-
-.gym {
-    margin-top: 350px;
+    display: inline-block;
 }
 
 #text-welcome {
@@ -132,21 +152,31 @@ aside {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    position: absolute;
     width: 488px;
     height: 81px;
-    left: 340px;
-    top: 280px;
+    margin-left: 150px;
+    top: 240px;
 }
 
 #features {
     text-align: center;
     text-decoration: underline #49A37B;
     color: #373867;
+    margin-top: 20px;
 }
 
+.icon-h3 {
+    display: inline-block;
+}
+.margin-top{
+    margin-top: 50px;
+    margin-bottom: 44px;
+}
+.altura{
+    height: 80px;
+    margin-top: 15px;
+}
 article {
-    font-style: normal;
     text-align: center;
     display: inline-block;
     width: 590px;
@@ -172,7 +202,10 @@ form {
 .label-form {
     display: block;
 }
-
+.lugar{
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
 .user-details {
     display: inline-block;
     margin-left: 160px;
@@ -215,10 +248,12 @@ form {
 }
 
 table {
-    text-align: left;
-    width: 600px;
     color: #373867;
     border-collapse: collapse;
+    text-align: left;
+    width: 900px;
+    height: 60;
+    margin-left: -200px;
     margin-top: -80px;
 }
 

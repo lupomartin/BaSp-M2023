@@ -14,8 +14,8 @@
 
 <body>
     <header>
-        <img src="assets/mega.svg" alt="icon-mega">
-        <img src="assets/rocket.svg" alt="icon-rocket">
+        <img class="img-header" src="assets/mega.svg" alt="icon-mega">
+        <img class="img-header2" src="assets/rocket.svg" alt="icon-rocket">
     </header>
     <aside>
         <nav>
@@ -24,38 +24,37 @@
                     <img class="icons-side" src="assets/icon-home.svg" alt="icono-home">
                     <a class="decoration" href="#" class="order ">
                         Home
-                    </a><br>
+                    </a>
                 </li>
                 <li class="btn-aside">
                     <img class="icons-side" src="assets/sign-up.svg" alt="icono-sign-up">
                     <a class="decoration" href="#" class="order">
                         Sign Up
-                    </a><br>
+                    </a>
                 </li>
                 <li class="btn-aside">
                     <img class="icons-side" src="assets/sign-in.svg" alt="icono-sign-in">
                     <a class="decoration" href="#" class="order">
                         Sign In
-                    </a><br>
-                    <br>
+                    </a>
                 </li>
             </ul>
         </nav>
         <section>
             <label>
                 <h2 id="color-contact">Contact information</h2>
-            </label><br>
+            </label>
             <ul id="size-ul">
                 <li class="position-side"> <img src="assets/Icon-mail.png" alt="icon-mail">
-                    <a href="#">information@untitled.tld</a><br>
+                    <a class="color underline" href="#">information@untitled.tld</a>
                 </li>
                 <li class="position-side">
                     <img src="assets/icon-phone.svg" alt="icon-phone">
-                    <label>(000) 000-00000</label>
+                    <label class="color">(000) 000-00000</label>
                 </li>
                 <li class="position-side">
                     <img src="assets/icon-home.svg" alt="icone-home">
-                    <a href="#">1234 Somewhere Road #8254 Nashville, TN</a><br>
+                    <a class="color underline" href="#">1234 Somewhere Road #8254 Nashville, TN</a>
                 </li>
             </ul>
         </section>
@@ -81,41 +80,50 @@
                 Features
             </h2>
             <article>
-                <h3>
+                <div class="altura">
                     <img src="assets/shift-reservations.svg" alt="">
-                    Shift Reservations
-                </h3>
+                    <h3 class="icon-h3">
+                        Shift Reservations
+                    </h3>
+                </div>
                 <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                     interdum. Sed nulla amet lorem feugiat tempus aliquam.
                 </p>
             </article>
             <article>
-
-                <h3>
+                <div class="altura">
                     <img src="assets/scheduling-opening-hours.svg" alt="">
-                    Scheduling & opening hours
-                </h3>
+                    <h3 class="icon-h3">
+                        Scheduling & opening hours
+                    </h3>
+                </div>
                 <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                     interdum. Sed nulla amet lorem feugiat tempus aliquam.
                 </p>
             </article>
             <article>
-                <h3>
+                <div class="altura">
                     <img src="assets/membership-management.svg" alt="">
-                    Membership management
-                </h3>
+
+                    <h3 class="icon-h3">
+                        Membership management
+                    </h3>
+                </div>
                 <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                     interdum. Sed nulla amet lorem feugiat tempus aliquam.
                 </p>
+                </div class="altura">
             </article>
             <article>
-                <h3>
+                <div class="altura">
                     <img src="assets/contact-form-suggestions.svg" alt="">
-                    Contact form & suggestions
-                </h3>
+                    <h3 class="icon-h3">
+                        Contact form & suggestions
+                    </h3>
+                </div>
                 <p>
                     Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante
                     interdum. Sed nulla amet lorem feugiat tempus aliquam.
@@ -123,7 +131,7 @@
             </article>
         </section>
         <div>
-            <h2>
+            <h2 class="margin-top">
                 About Mega Rocket
             </h2>
             <article>
@@ -160,21 +168,21 @@
             </article>
         </div>
         <section>
-            <h2>
+            <h2 class="margin-top">
                 Get in touch
             </h2>
             <div class="details2">
                 <form action="#">
                     <section class="user-details">
-                        <label class="label-form" for="first-name">
+                        <label class="label-form lugar" for="first-name">
                             First name
                         </label>
                         <input id="first-name" class="box" placeholder="Enter name" required type="text">
-                        <label class="label-form" for="last-name">
+                        <label class="label-form lugar" for="last-name">
                             Last name
                         </label>
                         <input id="last-name" class="box" placeholder="Enter last name" type="text">
-                        <label class="label-form" for="email-adress">
+                        <label class="label-form lugar" for="email-adress">
                             Email adress
                         </label>
                         <input id="email-adress" class="box" placeholder="Enter adress" type="mail">
@@ -212,7 +220,7 @@
             </form>
         </section>
         <section>
-            <h2 class="gym">
+            <h2 class="gym margin-top">
                 Gym activities
             </h2>
             <img id="img-activities" src="assets/gimnasio4.svg" alt="Foto-de-gimnasio">
