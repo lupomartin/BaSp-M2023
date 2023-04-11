@@ -28,16 +28,16 @@ aside {
     align-items: center;
     padding: 5px 36px;
     gap: 10px;
-    margin-right: 20px;
-    margin-left: 32px;
+    margin-right: 50px;
+    margin-left: 2px;
     margin-top: 15px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
     border: 1px solid #373867;
     border-radius: 5px;
 }
 
 .icons-side {
-    margin-left: 10px;
+    margin-right: -10px;
 }
 
 .color-contact {
