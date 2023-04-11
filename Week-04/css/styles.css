@@ -330,4 +330,45 @@ th {
         visibility: hidden;
         display: none;
     }
+
+    .container-activities {
+        display: flex;
+        flex-direction: row;
     }
+
+    .container-activities {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list-2 {
+        flex-direction: column;
+        list-style: inside;
+        text-align: start;
+        margin-right: 40px;
+    }
+
+    table {
+        color: #373867;
+        border-collapse: collapse;
+        text-align: center;
+        width: 504px;
+        height: 49px;
+    }
+
+    tr,
+    td,
+    th {
+        padding: 13px;
+    }
+
+    .table-container {
+        width: 500px;
+        margin: 40px auto;
+    }
+
+    .gray {
+        background-color: #D9D9D9;
+        color: #373867;
+    }
+}
