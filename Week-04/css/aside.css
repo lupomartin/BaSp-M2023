@@ -1,0 +1,72 @@
+aside {
+    position: fixed;
+    background-color: #AACE9B;
+    width: 260px;
+    height: 915px;
+    left: 0px;
+    top: 84px;
+    font-size: 18px;
+}
+
+.decoration {
+    text-decoration: none;
+    color: #373867;
+    margin-left: 10px;
+    right: 92px;
+    top: 4px;
+    bottom: 95px;
+}
+
+.color {
+    color: #373867;
+}
+
+.btn-aside {
+    background-color: white;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 36px;
+    gap: 10px;
+    margin-right: 20px;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #373867;
+    border-radius: 5px;
+}
+
+.icons-side {
+    margin-left: 10px;
+}
+
+.color-contact {
+    text-decoration: underline;
+    color: white;
+    margin-top: 245px;
+    font-size: 20px;
+}
+
+.position-side {
+    list-style-type: none;
+    text-decoration: none;
+    width: 270px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 90px;
+    margin-top: -50px;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.size-ul {
+    margin-top: 120px;
+}
+
+.h2-side {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 120px;
+}

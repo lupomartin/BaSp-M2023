@@ -23,3 +23,11 @@ What we will be able to see would be the main page where we have characteristics
 ## Week 03
 This week what we did was apply styles to our html so that it looked the same as the landing.
 
+## Week 04
+This week we made a responsive design using flexbox and following breakpoints:
+```
+from a minimum of 390px to 600px, mobile
+from 601px to 1024px, tablet
+from there, desktop
+```
+

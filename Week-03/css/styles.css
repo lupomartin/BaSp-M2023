@@ -4,8 +4,8 @@ body {
 
 header {
     background-color: #373867;
-    height: 77px;
     position: fixed;
+    height: 77px;
     width: 1519px;
     height: 85px;
     top: 0px;
@@ -15,10 +15,6 @@ header {
 
 .img-header {
     margin-top: 26px;
-}
-
-.img-header2 {
-    margin-bottom: 6px;
 }
 
 main {
@@ -66,7 +62,6 @@ aside {
     right: 92px;
     top: 4px;
     bottom: 95px;
-
 }
 
 .color {
@@ -78,7 +73,7 @@ aside {
     display: block;
     flex-direction: row;
     align-items: center;
-    padding: 14px 36px;
+    padding: 5px 36px;
     gap: 10px;
     margin-right: 20px;
     margin-left: 32px;
@@ -106,7 +101,7 @@ aside {
     margin-left: 10px;
     font-size: 16px;
     margin-bottom: 90px;
-    margin-top: -80px;
+    margin-top: -50px;
 }
 
 .underline {
@@ -168,14 +163,17 @@ aside {
 .icon-h3 {
     display: inline-block;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 50px;
     margin-bottom: 44px;
 }
-.altura{
+
+.altura {
     height: 80px;
     margin-top: 15px;
 }
+
 article {
     text-align: center;
     display: inline-block;
@@ -202,13 +200,16 @@ form {
 .label-form {
     display: block;
 }
-.lugar{
+
+.lugar {
     margin-top: 21px;
     margin-bottom: 10px;
 }
+
 .user-details {
     display: inline-block;
     margin-left: 160px;
+    color: #373867;
 }
 
 #submit {
@@ -224,7 +225,7 @@ form {
 .textarea {
     width: 566px;
     height: 190px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 #list {

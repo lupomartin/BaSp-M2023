@@ -1,0 +1,14 @@
+header {
+    background-color: #373867;
+    position: fixed;
+    height: 77px;
+    width: 1519px;
+    height: 85px;
+    top: 0px;
+    left: 0px;
+    padding-left: 15px;
+}
+
+.img-header {
+    margin-top: 26px;
+}

@@ -1,0 +1,30 @@
+main {
+    margin-left: 190px;
+}
+
+h1 {
+    color: #373867;
+    font-size: 40px;
+}
+
+h2 {
+    color: #373867;
+    text-align: center;
+    text-decoration: underline #49A37B;
+    color: #373867;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+h3 {
+    color: #373867;
+    font-size: 24px;
+}
+
+p {
+    color: #373867;
+    font-family: 'Roboto';
+}
+.underline {
+    text-decoration: none;
+}
