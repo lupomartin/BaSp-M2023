@@ -1,29 +1,30 @@
-//Ejercicio 5
-//Ejercicio 5.A
-var palabrasArray = ['hamburguesa', 'helado', 'pizza', 'milanesa', 'pollo'];
-for (var i = 0; i < palabrasArray.length; i++) {
-    alert(palabrasArray[i]);
+//exercise 5
+//For
+//exercise 5.A
+var wordsArray = ['burger', 'ice-cream', 'pizza', 'milanesa', 'chicken'];
+for (var i = 0; i < wordsArray.length; i++) {
+    alert(wordsArray[i]);
 }
-console.log('Ejercicio 5.A: ' + palabrasArray);
+console.log('exercise 5.A: ' + wordsArray);
 
-//Ejercicio 5.B
-var palabrasArray;
-for (var i = 0; i < palabrasArray.length; i++) {
-    var mayus = palabrasArray[i][0].toUpperCase() + palabrasArray[i].slice(1);
+//exercise 5.B
+var wordsArray;
+for (var i = 0; i < wordsArray.length; i++) {
+    var mayus = wordsArray[i][0].toUpperCase() + wordsArray[i].slice(1);
     alert(mayus);
 }
-console.log('Ejercicio 5.B: ' + palabrasArray);
+console.log('exercise 5.B: ' + wordsArray);
 
-//Ejercicio 5.C
+//exercise 5.C
 var sentence = "";
-for (var i = 0; i < palabrasArray.length; i++) {
-    sentence += palabrasArray[i] + " ";
+for (var i = 0; i < wordsArray.length; i++) {
+    sentence += wordsArray[i] + " ";
 }
-alert('Ejercicio 5.C: ' + sentence);
+alert('exercise 5.C: ' + sentence);
 
-//Ejercicio 5.D
+//exercise 5.D
 let arrayVacio = [];
 for (var g = 0; g < 10; g++) {
     arrayVacio.push(g);
 }
-console.log('Ejercicio 5.D: ' +arrayVacio);
+console.log('exercise 5.D: ' +arrayVacio);

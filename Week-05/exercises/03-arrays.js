@@ -1,38 +1,39 @@
-//Ejercicio 3
-//Ejercicio 3.A
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-console.log('Ejercicio 3.A: ' +meses[4]);
-console.log('Ejercicio 3.A: ' +meses[10]);
+//exercise 3
+//Arrays
+//exercise 3.A
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log('exercise 3.A: ' +months[4]);
+console.log('exercise 3.A: ' +months[10]);
 
-//Ejercicio 3.B
-var meses;
-meses.sort();
-console.log('Ejercicio 3.B: ' +meses);
+//exercise 3.B
+var months;
+months.sort();
+console.log('exercise 3.B: ' +months);
 
-//Ejercicio 3.C
-var meses;
-meses.unshift('martin');
-meses.push('lupo');
-console.log('Ejercicio 3.C: ' +meses);
+//exercise 3.C
+var months;
+months.unshift('martin');
+months.push('lupo');
+console.log('exercise 3.C: ' +months);
 
-//Ejercicio 3.D
-var meses;
-meses.shift();
-meses.pop();
-console.log('Ejercicio 3.D: ' +meses);
+//exercise 3.D
+var months;
+months.shift();
+months.pop();
+console.log('exercise 3.D: ' +months);
 
-//Ejercicio 3.E
-var reverse = meses.reverse();
-console.log('Ejercicio 3.E: ' +reverse);
+//exercise 3.E
+var reverse = months.reverse();
+console.log('exercise 3.E: ' +reverse);
 
-//Ejercicio 3.F
-var meses;
-var guion = meses.join('-');
-console.log('Ejercicio 3.F: ' +guion);
+//exercise 3.F
+var months;
+var guion = months.join('-');
+console.log('exercise 3.F: ' +guion);
 
-//Ejercicio 3.G
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-var copia =meses.slice(4,11);
-console.log('Ejercicio 3.G: ' +copia);
+//exercise 3.G
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var copy = months.slice(4,11);
+console.log('exercise 3.G: ' +copy);
 
 
