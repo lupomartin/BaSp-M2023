@@ -6,7 +6,7 @@ if (numero >= 0.5) {
 } else {
     alert("Lower than 0.5");
 }
-console.log('Ejercicio 4.B: ' +numero);
+console.log('Ejercicio 4.A: ' +numero);
 
 //Ejercicio 4.B
 var edad = Math.floor(Math.random() * 101);
@@ -25,4 +25,4 @@ if (edad < 2) {
   } else {
     alert("Anciano");
   }
-  console.log('Ejercicio 4.C: ' +edad);
+  console.log('Ejercicio 4.B: ' +edad);
