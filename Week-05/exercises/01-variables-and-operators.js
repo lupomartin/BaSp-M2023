@@ -1,4 +1,5 @@
 //Ejercicio 1
+//Variables y Operadores
 //Ejercicio 1.A
 var a = 10;
 var b = 5;
@@ -16,3 +17,4 @@ var pais = 'EstadosUnidos';
 var estado = 'Florida';
 var length = pais + estado;
 console.log('Ejercicio 1.C: ' + length .length);
+
