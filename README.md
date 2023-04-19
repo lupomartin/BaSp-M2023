@@ -30,4 +30,14 @@ from a minimum of 390px to 600px, mobile
 from 601px to 1024px, tablet
 from there, desktop
 ```
+## Week 05
+This week we start with javascript, doing exercises:
+```
+-Variables and Operators
+-Strings
+-Arrays
+-If Else
+-For
+-Functions
+```
 

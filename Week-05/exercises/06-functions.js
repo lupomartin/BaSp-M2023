@@ -1,10 +1,10 @@
 //exercise 6
 //Functions
 //exercise 6.A
-function add(a, b) {
+function suma(a, b) {
     return a + b;
 }
-var result = add(5, 10);
+var result = suma(5, 10);
 console.log('exercise 6.A: ' + result);
 
 //Ejercicio 6.B
@@ -27,15 +27,33 @@ console.log(validateInteger(9));
 console.log(validateInteger(8.22));
 
 //Ejercicio 6.D
-function addD(a, b) {
-    if (isNaN(a) || isNaN(b)) {
-        alert("One of the parameters has an error.");
-        return NaN;
+const resultado = sumaValida(3.5, 5);
+console.log(resultado);
+
+function validateInteger(number) {
+    var numberVer = number % 1;
+    if (numberVer === 0) {
+        return true;
+    } else {
+        return false
     }
-    return validateInteger(num);
-}
-console.log(validateInteger());
-console.log(validateInteger());
+};
 
 //Ejercicio 6.E
-
+function sumaValida(a, b) {
+    if (!validateInteger(a) || !validateInteger(b)) {
+        if (a === true && b === false) {
+            b = Math.round(b);
+            alert("The second number is not an integer. Rounding: " + b);
+        } else if (a === false && b === true) {
+            a = Math.round(a);
+            alert("The first number is not an integer. Rounding: " + a);
+        } else {
+            a = Math.round(a);
+            b = Math.round(b);
+            alert("No number is whole. Rounding: " + a + " and " + b);
+        }
+    }
+    return a + b;
+    console.log('exercise 6.E: ' + a + b);
+};

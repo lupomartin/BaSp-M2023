@@ -17,6 +17,7 @@ var countryub = country.substring(country.length - 3);
 console.log('exercise 2.C: ' + countryub);
 
 //Exercise 2.D
+
 var country;
 var mayusminus = country.substring(0, 1).toUpperCase() + country.substring(1).toLowerCase();
 console.log('exercise 2.D: ' + mayusminus);
