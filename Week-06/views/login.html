@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/header.css"/>
+  <link rel="stylesheet" href="../css/aside.css"/>
+  <script defer src="login.js"></script>
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <img class="header-mega" src="/assets/images/mega-rocket.svg" alt="" />
+  </header>
+  <div>
+    <aside>
+      <nav>
+        <ul>
+          <li class="btn-aside">
+            <img class="icons-side" src="/assets/images/home-white.svg" alt="icono-home" />
+            <a class="decoration white" href="#" class="order"> Home </a>
+          </li>
+          <li class="btn-aside">
+            <img class="icons-side" src="/assets/images/signup-white.svg" alt="icono-sign-up" />
+            <a class="decoration white" href="#" class="order"> Sign Up </a>
+          </li>
+          <li class="btn-aside">
+            <img class="icons-side" src="/assets/images/sign-in.svg" alt="icono-sign-in" />
+            <a class="decoration" href="#" class="order"> Sign In </a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <div class='contact'>
+          <label>
+            <h2 class="color-contact position-side">Contact information</h2>
+          </label>
+          <ul class="size-ul">
+            <li class="position-side">
+              <img src="/assets/images/Icon-mail.png" alt="icon-mail" />
+              <a class="color underline" href="#">information@untitled.tld</a>
+            </li>
+            <li class="position-side">
+              <img src="/assets/images/icon-phone.svg" alt="icon-phone" />
+              <label class="color">(000) 000-00000</label>
+            </li>
+            <li class="position-side">
+              <img src="/assets/images/icon-home.svg" alt="icone-home" />
+              <a class="color underline" href="#">1234 Somewhere Road #8254 Nashville, TN</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+  </div>
+  <main>
+    <form id="formulario" class="container-login" action="#">
+      <h2 class="login">
+        Log In
+      </h2>
+      <label class="dates" for="Username">
+        Username
+      </label>
+      <input id="Username" class="dates-2" type="text" placeholder="Username">
+      <label class="dates" for="Password">
+        Password
+      </label>
+      <input for="Password" class="dates-2" type="Password" placeholder="Password">
+      <div class="checkbox">
+        <input type="checkbox" id="me-checkbox">
+        <label for="me-checkbox">
+          Remember Me
+        </label>
+      </div>
+      <a class="forgot" href="#">
+        Forgot your Password?
+      </a>
+      <button type="submit" class="enter">
+        Enter
+      </button>
+    </form>
+  </main>
+</body>
+
+</html>

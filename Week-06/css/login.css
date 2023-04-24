@@ -1,0 +1,306 @@
+body{
+  font-family: 'Roboto';
+}
+.container-login {
+  color: #373867;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  top: 31%;
+  right: 25%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.login {
+  margin-top: -0px;
+}
+.dates-2 {
+  width: 300px;
+  border: 1px solid #373867;
+  border-radius: 4px;
+  padding: 10px 12px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.dates {
+  margin-right: 260px;
+  margin-top: 10px;
+}
+.checkbox {
+  cursor: pointer;
+  display: flex;
+  margin-top:10px;
+  margin-left: 80px;
+}
+.forgot {
+  color: #373867;
+  text-decoration: none;
+  margin-top: 70px;
+}
+.enter {
+  color: #373867;
+  background-color: #aace9b;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  width: 90px;
+  margin-left: 200px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+}
+@media only screen and (min-width: 601px) {
+  main {
+    display: flex;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 375px;
+  }
+
+  h1 {
+    margin-left: 35px;
+  }
+
+  .text-welcome {
+    margin-top: 0px;
+  }
+
+  .color-welcome {
+    visibility: visible;
+    text-decoration: none;
+    margin-top: -20px;
+    color: #49a37b;
+    font-size: 20px;
+  }
+
+  .img-welcome {
+    margin-top: 40px;
+  }
+
+  .article-1 {
+    display: flex;
+  }
+
+  .about-1 {
+    display: flex;
+    margin: 7px;
+    margin-bottom: 17px;
+  }
+
+  .img-about-1 {
+    width: 420px;
+    height: 290px;
+  }
+
+  .submit {
+    visibility: visible;
+  }
+
+  .learn {
+    visibility: hidden;
+    display: none;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-around;
+    border: #373867 solid 2px;
+    height: 30px;
+    width: 260px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+  }
+
+  .textarea {
+    width: 256px;
+    height: 190px;
+  }
+
+  .label-form {
+    margin-right: 200px;
+  }
+
+  .label-form-2 {
+    margin-right: 192px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .send {
+    visibility: hidden;
+    display: none;
+  }
+
+  .container-activities {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-activities {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-2 {
+    flex-direction: column;
+    list-style: inside;
+    text-align: start;
+    margin-right: 40px;
+  }
+
+  table {
+    color: #373867;
+    border-collapse: collapse;
+    text-align: center;
+    width: 504px;
+    height: 49px;
+  }
+
+  tr,
+  td,
+  th {
+    padding: 13px;
+  }
+
+  .table-container {
+    width: 500px;
+    margin: 40px auto;
+  }
+
+  .gray {
+    background-color: #d9d9d9;
+    color: #373867;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  main {
+    padding: 1%;
+    margin-left: 120px;
+    font-size: 20px;
+  }
+
+  header {
+    visibility: visible;
+  }
+
+  .header-hamburguesa {
+    visibility: hidden;
+  }
+
+  aside {
+    visibility: visible;
+    width: 260px;
+    height: 915px;
+    left: 0px;
+    top: 72px;
+    font-size: 18px;
+  }
+
+  .size-ul {
+    flex-direction: column;
+    margin-left: -60px;
+  }
+
+  .btn-aside {
+    display: flex;
+  }
+
+  .color-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+  }
+
+  .welcome {
+    width: 80%;
+  }
+
+  h1 {
+    margin-left: 35px;
+  }
+
+  .text-welcome {
+    margin-top: 20px;
+  }
+
+  .img-welcome {
+    width: 500px;
+    height: 300px;
+  }
+
+  .color-welcome {
+    visibility: visible;
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .img-about-1 {
+    width: 600px;
+    height: 300px;
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-around;
+    border: #373867 solid 2px;
+    height: 30px;
+    width: 260px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+  }
+
+  .textarea {
+    width: 566px;
+    height: 190px;
+  }
+
+  .label-form {
+    margin-right: 182px;
+  }
+
+  .label-form-2 {
+    margin-right: 452px;
+  }
+
+  .form-position {
+    margin-left: 110px;
+  }
+
+  .container-activities {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-2 {
+    margin-top: -74px;
+  }
+
+  .img-activities {
+    margin-top: -80px;
+    width: 400px;
+    height: 300px;
+  }
+
+  table {
+    color: #373867;
+    border-collapse: collapse;
+    text-align: center;
+    width: 900px;
+    height: 60;
+    margin-left: -200px;
+    margin-top: -20px;
+  }
+}

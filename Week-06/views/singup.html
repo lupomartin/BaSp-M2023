@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/aside.css">
+	<link rel="stylesheet" href="../css/signup.css">
+</head>
+
+<body>
+	<header>
+		<img class="header-mega" src="/assets/images/mega-rocket.svg" alt="" />
+	</header>
+	<div>
+		<aside>
+			<nav>
+				<ul>
+					<li class="btn-aside">
+						<img class="icons-side" src="/assets/images/home-white.svg" alt="icono-home" />
+						<a class="decoration white" href="#" class="order"> Home </a>
+					</li>
+					<li class="btn-aside">
+						<img class="icons-side" src="/assets/images/sign-up.svg" alt="icono-sign-up" />
+						<a class="decoration" href="#" class="order"> Sign Up </a>
+					</li>
+					<li class="btn-aside">
+						<img class="icons-side" src="/assets/images/log-in-white.svg" alt="icono-sign-in" />
+						<a class="decoration white" href="#" class="order"> Sign In </a>
+					</li>
+				</ul>
+			</nav>
+			<section>
+				<div class='contact'>
+					<label>
+						<h2 class="color-contact position-side">Contact information</h2>
+					</label>
+					<ul class="size-ul">
+						<li class="position-side">
+							<img src="/assets/images/Icon-mail.png" alt="icon-mail" />
+							<a class="color underline" href="#">information@untitled.tld</a>
+						</li>
+						<li class="position-side">
+							<img src="/assets/images/icon-phone.svg" alt="icon-phone" />
+							<label class="color">(000) 000-00000</label>
+						</li>
+						<li class="position-side">
+							<img src="/assets/images/icon-home.svg" alt="icone-home" />
+							<a class="color underline" href="#">1234 Somewhere Road #8254 Nashville, TN</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</aside>
+	</div>
+	<main>
+		<form action="" class="formulario" id="formulario">
+			<!-- Grupo: Name -->
+			<div class="formulario-grupo" id="grupo-Name">
+				<label for="Name" class="formulario-label">
+					Name
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="text" class="formulario-input" name="Name" id="Name" placeholder="Enter name">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					The name must only contain letters and more than 3 letters.
+				</p>
+			</div>
+
+			<!-- Grupo: Surname -->
+			<div class="formulario-grupo" id="grupo-Surname">
+				<label for="Surname" class="formulario-label">
+					Surname
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="text" class="formulario-input" name="Surname" id="Surname" placeholder="Enter surname">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					The name must only contain letters and more than 3 letters.
+				</p>
+			</div>
+
+			<!-- Grupo: DNI -->
+			<div class="formulario-grupo" id="grupo-DNI">
+				<label for="DNI" class="formulario-label">
+					DNI
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="boolean" class="formulario-input" name="DNI" id="DNI" placeholder="Enter DNI">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					Numbers only and must have more than 7 numbers.
+				</p>
+			</div>
+
+			<!-- Grupo: date -->
+			<div>
+				<label class="formulario-label" for="date">
+					Age
+				</label>
+				<input type="date" id="born" max="2023-4-24">
+			</div>
+
+			<!-- Grupo: phone -->
+			<div class="formulario-grupo" id="grupo-phone">
+				<label for="phone" class="formulario-label">
+					Phone
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="text" class="formulario-input" name="phone" id="Phone"
+						placeholder="Enter phone number">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					The phone can only contain numbers and the maximum is 14 digits.
+				</p>
+			</div>
+
+			<!-- Grupo: adress -->
+			<div class="formulario-grupo" id="grupo-adress">
+				<label for="adress" class="formulario-label">
+					Adress
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="text" class="formulario-input" name="adress" id="Adress"
+						placeholder="Enter adress">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					At least 5 characters with letters, numbers and a space in between.
+				</p>
+			</div>
+
+			<!-- Grupo: location -->
+			<div class="formulario-grupo" id="grupo-location">
+				<label for="location" class="formulario-label">
+					Location
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="text" class="formulario-input" name="location" id="location"
+						placeholder="Enter location">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					Alphanumeric text and must have more than 3 letters.
+				</p>
+			</div>
+
+				<!-- Grupo: Zip Code -->
+				<div class="formulario-grupo" id="grupo-zip">
+					<label for="zip" class="formulario-label">
+						Zip Code
+					</label>
+					<div class="formulario-grupo-input">
+						<input type="text" class="formulario-input" name="zip" id="zip"
+							placeholder="Enter Zip Code">
+						<i class="formulario-validacion-estado fas fa-times-circle"></i>
+					</div>
+					<p class="formulario-input-error">
+						Numbers only and must have between 4 and 5 numbers.
+					</p>
+				</div>
+
+			<!-- Grupo: email -->
+			<div class="formulario-grupo" id="grupo-email">
+				<label for="email" class="formulario-label">Email</label>
+				<div class="formulario-grupo-input">
+					<input type="email" class="formulario-input" name="email" id="email" placeholder="Enter email">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					The email can only contain letters, numbers, periods, hyphens and
+					underscores.
+				</p>
+			</div>
+
+			<div class="formulario-grupo" id="grupo-email">
+				<label for="email" class="formulario-label">Repeat email</label>
+				<div class="formulario-grupo-input">
+					<input type="email" class="formulario-input" name="email" id="email" placeholder="Enter email">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">The email can only contain letters, numbers, periods, hyphens and
+					underscores.</p>
+			</div>
+
+			<!-- Grupo: Password -->
+			<div class="formulario-grupo" id="grupo-password">
+				<label for="password" class="formulario-label">
+					Password
+				</label>
+				<div class="formulario-grupo-input">
+					<input type="password" class="formulario-input" name="password" id="password"
+						placeholder="Enter password">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					The Password must be from 4 to 12 digits.
+				</p>
+			</div>
+
+			<!-- Grupo: Password 2 -->
+			<div class="formulario-grupo" id="grupo-password2">
+				<label for="password2" class="formulario-label">Repeat Password</label>
+				<div class="formulario-grupo-input">
+					<input type="password" class="formulario-input" name="password2" id="password2"
+						placeholder="Enter password">
+					<i class="formulario-validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario-input-error">
+					Both Passwords must be the same.
+				</p>
+			</div>
+
+			<!-- Grupo: terms and conditions -->
+			<div class="formulario-mensaje" id="formulario-mensaje">
+				<p>
+					<i class="fas fa-exclamation-triangle"> </i>
+					<b>
+						Error:
+					</b>
+					Please fill out the form correctly.
+				</p>
+			</div>
+
+			<div class="formulario-grupo formulario-grupo-btn-enviar">
+				<button type="submit" class="formulario-btn">
+					Register
+				</button>
+				<p class="formulario-mensaje-exito" id="formulario-mensaje-exito">
+					Form submitted successfully!</p>
+			</div>
+		</form>
+	</main>
+	<script src="../js/signup.js"></script>
+</body>
+
+</html>
