@@ -2,7 +2,7 @@ const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 const expresiones = {
 	Name: /^[a-zA-Z0-9\_\-]{4,16}$/,
-	Surname: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
+	LastName: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
 	password: /^.{4,12}$/,
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	phone: /^\d{7,14}$/
@@ -10,7 +10,7 @@ const expresiones = {
 
 const campos = {
 	Name: false,
-	Surname: false,
+	LastName: false,
 	password: false,
 	email: false,
 	phone: false,
@@ -22,8 +22,8 @@ const validarFormulario = (e) => {
 		case "Name":
 			validarCampo(expresiones.Name, e.target, 'Name');
 		break;
-		case "Surname":
-			validarCampo(expresiones.Surname, e.target, 'Surname');
+		case "LastName":
+			validarCampo(expresiones.LastName, e.target, 'LastName');
 		break;
 		case "password":
 			validarCampo(expresiones.password, e.target, 'password');
@@ -89,7 +89,7 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if(campos.Name && campos.Surname && campos.password && campos.email && campos.phone && terminos.checked ){
+	if(campos.Name && campos.LastName && campos.password && campos.email && campos.phone && terminos.checked ){
 		formulario.reset();
 
 		document.getElementById('formulario-mensaje-exito').classList.add('formulario-mensaje-exito-activo');

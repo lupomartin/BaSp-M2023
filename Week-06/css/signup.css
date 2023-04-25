@@ -117,6 +117,8 @@ main {
 
 .formulario-btn:hover {
 	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+	background-color: #49a37b;
+	color: white;
 }
 
 .formulario-mensaje-exito {
