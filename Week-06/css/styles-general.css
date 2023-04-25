@@ -138,6 +138,7 @@ form {
     align-items: center;
     width: 352px;
     height: 416px;
+    margin-left: 400px;
 }
 
 fieldset {
@@ -171,7 +172,12 @@ fieldset {
     height: 33px;
     font-size: 12px;
 }
-
+.decoration:hover{
+    color: white;
+}
+.white:hover{
+    color: #373867;
+}
 .submit {
     visibility: hidden;
     display: none;

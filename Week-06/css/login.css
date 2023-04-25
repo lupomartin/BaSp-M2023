@@ -119,3 +119,9 @@ button:hover{
 	text-decoration: none;
 	margin-top: 70px;
 }
+.decoration:hover{
+    color: white;
+}
+.white:hover{
+    color: #373867;
+}

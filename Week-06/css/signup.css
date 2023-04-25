@@ -161,6 +161,12 @@ input[type='date']{
 .white{
 	color: white;
 }
+.decoration:hover{
+    color: white;
+}
+.white:hover{
+    color: #373867;
+}
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
 	.formulario {
