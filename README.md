@@ -40,4 +40,5 @@ This week we start with javascript, doing exercises:
 -For
 -Functions
 ```
-
+## Week 06
+This week what we did was create the sign up and sign in screens and connect them between them
