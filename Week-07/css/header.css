@@ -1,0 +1,15 @@
+header {
+  background-color: #373867;
+  position: fixed;
+  width: 1612px;
+  height: 169px;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.header-mega{
+ margin-top: 10px;
+ margin-left: 30px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/aside.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>
+        Log In
+    </title>
+</head>
+
+<body>
+    <header>
+        <img class="header-mega" src="/assets/images/mega-rocket.svg" alt="" />
+    </header>
+    <div>
+        <aside>
+            <nav>
+                <ul>
+                    <li class="btn-aside">
+                        <img class="icons-side" src="/assets/images/home-white.svg" alt="icono-home" />
+                        <a class="decoration white" href="index.html" class="order"> Home </a>
+                    </li>
+                    <li class="btn-aside">
+                        <img class="icons-side" src="/assets/images/signup-white.svg" alt="icono-sign-up" />
+                        <a class="decoration white" href="singup.html" class="order"> Sign Up </a>
+                    </li>
+                    <li class="btn-aside">
+                        <img class="icons-side" src="/assets/images/sign-in.svg" alt="icono-sign-in" />
+                        <a class="decoration" href="login.html" class="order"> Sign In </a>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <div class='contact'>
+                    <label>
+                        <h2 class="color-contact position-side">Contact information</h2>
+                    </label>
+                    <ul class="size-ul">
+                        <li class="position-side">
+                            <img src="/assets/images/Icon-mail.png" alt="icon-mail" />
+                            <a class="color underline" href="#">information@untitled.tld</a>
+                        </li>
+                        <li class="position-side">
+                            <img src="/assets/images/icon-phone.svg" alt="icon-phone" />
+                            <label class="color">(000) 000-00000</label>
+                        </li>
+                        <li class="position-side">
+                            <img src="/assets/images/icon-home.svg" alt="icone-home" />
+                            <a class="color underline" href="#">1234 Somewhere Road #8254 Nashville, TN</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h2>Log In</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="email">
+                    Email
+                </label>
+                <input name="email" type="email" placeholder="Email" id="email" />
+                <small>
+                    Error message
+                </small>
+            </div>
+            <div class="form-control">
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" placeholder="Password" id="password" />
+                <small>
+                    Error message
+                </small>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="me-checkbox">
+                <label for="me-checkbox">
+                    Remember Me
+                </label>
+            </div>
+            <div class="account">
+            <a class="forgot" href="#">
+                Forgot your Password?
+            </a>
+            <a class="forgot" href="singup.html">
+                You do not have an account? create Account
+            </a>
+        </div>
+            <button id="submit-button">
+                Enter
+            </button>
+        </form>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
