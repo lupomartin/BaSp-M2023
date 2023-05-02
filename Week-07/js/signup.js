@@ -153,12 +153,12 @@ formulario.addEventListener("submit", function (event) {
 				localStorage.setItem('zip', zip.value)
 				localStorage.setItem('Address', Address.value)
 			} else {
-				alert('error', data.msg)
+				alert('Error: ' + data.msg)
 			}
 		})
 		.catch(function (error) {
 			console.log(error)
-			alert("error");
+			alert("Error");
 		});
 });
 
