@@ -59,7 +59,7 @@ const validarFormulario = (e) => {
 const Date = document.getElementById('Date')
 window.addEventListener('load', function () {
 
-	Age.addEventListener('change', function () {
+	dob.addEventListener('change', function () {
 		if (this.value) {
 			console.log(this.value)
 		}
@@ -106,7 +106,7 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if (campos.Name && campos.LastName && campos.password && campos.email && campos.phone && campos.Address && campos.dni && campos.zip && campos.Age && campos.location && terminos.checked) {
+	if (campos.Name && campos.LastName && campos.password && campos.email && campos.phone && campos.Address && campos.dni && campos.zip && campos.dob && campos.location && terminos.checked) {
 		formulario.reset();
 
 		document.getElementById('formulario-mensaje-exito').classList.add('formulario-mensaje-exito-activo');
@@ -117,49 +117,50 @@ formulario.addEventListener('submit', (e) => {
 		document.querySelectorAll('.formulario-grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario-grupo-correcto');
 		});
-	} else {
-		document.getElementById('formulario-mensaje').classList.add('formulario-mensaje-activo');
 	}
 });
-
-formulario.addEventListener("submit", function (event) {
-	fetch(`https://api-rest-server.vercel.app/login?email=` + email.value
-		+ '&password=' + password.value
-		+ '&Name=' + Name.value
-		+ '&DNI=' + DNI.value
-		+ '&phone=' + phone.value
-		+ '&location=' + location.value
-		+ '&zip=' + zip.value
-		+ '&password2=' + password2.value
-		+ '&LastName=' + LastName.value
-		+ '&Address=' + Address.value
-		+ '&Age=' + Age.value, {
-	})
-		.then(function (response) {
-			alert("Welcome");
-			return response.json();
+window.onload = function () {
+	formulario.addEventListener("submit", function (event) {
+		var date = dob.value;
+		var dateEl = date.split('-');
+		var formattedDate = dateEl[1] + '/' + dateEl[2] + '/' + dateEl[0];
+		fetch(`https://api-rest-server.vercel.app/login?email=` + email.value
+			+ '&password=' + password.value
+			+ '&Name=' + Name.value
+			+ '&DNI=' + DNI.value
+			+ '&phone=' + phone.value
+			+ '&location=' + location.value
+			+ '&zip=' + zip.value
+			+ '&password2=' + password2.value
+			+ '&LastName=' + LastName.value
+			+ '&Address=' + Address.value
+			+ '&dob=' + dob.value, {
 		})
-		.then(function (data) {
-			if (data.success) {
-				alert('Success: ' + data.msg + '\nWelcome to the Mega Rocket ' + ' \nName: ' + Name.value + ' \nLast Name ' + LastName.value + ' \nPassword: ' + password.value + ' \nEmail: ' + email.value + ' \nDNI: ' + DNI.value + ' \nAddress: ' + Address.value + ' \nZip: ' + zip.value + ' \nLocation: ' + location.value,)
-				localStorage.setItem('email', email.value)
-				localStorage.setItem('password', password.value)
-				localStorage.setItem('Name', Name.value)
-				localStorage.setItem('LastName', LastName.value)
-				localStorage.setItem('phone', phone.value)
-				localStorage.setItem('DNI', DNI.value)
-				localStorage.setItem('location', location.value)
-				localStorage.setItem('password2', password2.value)
-				localStorage.setItem('zip', zip.value)
-				localStorage.setItem('Address', Address.value)
-			} else {
-				alert('Error: ' + data.msg)
-			}
-		})
-		.catch(function (error) {
-			console.log(error)
-			alert("Error");
-		});
-});
-
-
+			.then(function (response) {
+				alert("Welcome");
+				return response.json();
+			})
+			.then(function (data) {
+				if (data.success) {
+					alert('Success: ' + data.msg + '\nWelcome to the Mega Rocket ' + ' \nName: ' + Name.value + ' \nLast Name ' + LastName.value + ' \nPassword: ' + password.value + ' \nEmail: ' + email.value + ' \nDNI: ' + DNI.value + ' \nAddress: ' + Address.value + ' \nZip: ' + zip.value + ' \nLocation: ' + location.value + ' \nAge: ' + dob.value,)
+					localStorage.setItem('email', email.value)
+					localStorage.setItem('password', password.value)
+					localStorage.setItem('Name', Name.value)
+					localStorage.setItem('LastName', LastName.value)
+					localStorage.setItem('phone', phone.value)
+					localStorage.setItem('DNI', DNI.value)
+					localStorage.setItem('location', location)
+					localStorage.setItem('password2', password2.value)
+					localStorage.setItem('zip', zip.value)
+					localStorage.setItem('Address', Address.value)
+					localStorage.setItem('dob', dob)
+				} else {
+					alert('Error: ' + data.msg)
+				}
+			})
+			.catch(function (error) {
+				console.log(error)
+				alert("Error");
+			});
+	});
+}
