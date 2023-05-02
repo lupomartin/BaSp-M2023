@@ -58,7 +58,7 @@ form.addEventListener("submit", function (event) {
         })
         .then(function (data) {
             if (data.success) {
-                alert(data.msg)
+                alert(data.msg + '\nemail: ' + email.value + ' \npassword: ' + password.value)
                 localStorage.setItem('email', email.value)
                 localStorage.setItem('password', password.value)
             } else {

@@ -141,7 +141,7 @@ formulario.addEventListener("submit", function (event) {
 		})
 		.then(function (data) {
 			if (data.success) {
-				alert(data.msg)
+				alert('Success: ' + data.msg + '\nWelcome to the Mega Rocket ' + ' \nName: ' + Name.value + ' \nLast Name ' + LastName.value + ' \nPassword: ' + password.value + ' \nEmail: ' + email.value + ' \nDNI: ' + DNI.value + ' \nAddress: ' + Address.value + ' \nZip: ' + zip.value + ' \nLocation: ' + location.value,)
 				localStorage.setItem('email', email.value)
 				localStorage.setItem('password', password.value)
 				localStorage.setItem('Name', Name.value)
